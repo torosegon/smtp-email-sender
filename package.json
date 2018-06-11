@@ -1,0 +1,31 @@
+{
+  "name": "smtp-email-sender",
+  "version": "1.0.0",
+  "description": "Lets you send emails using SMTP",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/torosegon/smtp-email-sender.git"
+  },
+  "keywords": [
+    "nodejs",
+    "smtp",
+    "nodemailer",
+    "email"
+  ],
+  "author": "Egon Richárd Tőrös <schme16@gmail.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/torosegon/stmp-email-sender/issues"
+  },
+  "homepage": "https://github.com/torosegon/smtp-email-sender#readme",
+  "dependencies": {
+    "ics-creator": "^1.1.1",
+    "nodemailer": "^4.6.6",
+    "nodemailer-html-to-text": "^2.1.0",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}
